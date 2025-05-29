@@ -1,0 +1,59 @@
+* {
+    font-family: "Anonymous Pro", monospace;
+    margin-left: 0.1em;
+    margin-right: 0.1em;
+}
+
+.main-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.popup-div {
+    align-self: center;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 2em;
+}
+
+.projectsRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    width: 10em;
+}
+
+.folder-img {
+    height: 120px;
+}
+
+.popup-background {
+    display: flex;
+    flex-direction: column;
+    background-image: url(images/project-popup.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 30em;
+    width: 30em;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content {
+    width: 24em;
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+}
