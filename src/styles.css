@@ -1,7 +1,22 @@
+
 * {
     font-family: "Anonymous Pro", monospace;
     margin-left: 0.1em;
     margin-right: 0.1em;
+}
+
+:root {
+    --darker-color: #e4d3dd;
+    --lighter-color: #eeeaf3;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: var(--darker-color);
 }
 
 .main-div {

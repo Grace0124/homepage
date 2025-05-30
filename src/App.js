@@ -42,7 +42,12 @@ function NavBarLeft() {
 }
 
 function NavBarRight() {
-    return (<div>linkedin github email</div>);
+    return (
+    <div>
+        <a href='www.linkedin.com/in/gjliu'>linkedin </a>
+        <a href='https://github.com/Grace0124'>github </a>
+        <a href='mailto:gjliu24@gmail.com'>email</a>
+    </div>);
 }
 
 function Projects({handleFolderClick}) {
@@ -136,11 +141,11 @@ function Popup({idx}) {
             break;
         case 2:
             projContext = 'project for 6.101 (fundamentals of programming)'
-            projOverview = 'lisp interpreter to parse and execute s-expressions. Supports core language features such as arithmetic operations, conditionals, variable scoping, and user-defined functions.';
+            projOverview = 'lisp interpreter to parse and execute s-expressions. supports core language features such as arithmetic operations, conditionals, variable scoping, and user-defined functions.';
             break;
         case 3:
             projContext = 'final group project for 6.102 (software construction)';
-            projOverview = 'Star Battle game. includes a client/server architecture and a web interface to play the game.';
+            projOverview = 'star battle game. includes a client/server architecture and a web interface to play the game.';
             break;
         case 4:
             projContext = 'just for fun'
